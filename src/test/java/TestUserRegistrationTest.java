@@ -5,13 +5,13 @@ public class TestUserRegistrationTest {
     UserRegistration userRegistration = new UserRegistration();
 
     @Test
-    public void givenFirstName_WhenFirstLetterUpperCase_ShouldReturnTrue() {
-        boolean result = userRegistration.validateFirstName("Jui");
+    public void givenLastName_WhenFirstLetterUpperCase_ShouldReturnTrue() {
+        boolean result = userRegistration.validateLastName("Kshirsagar");
         Assert.assertTrue(result);
     }
     @Test
-    public void givenFirstName_WhenLessThanThreeChars_ShouldReturnFalse() {
-        boolean result = userRegistration.validateFirstName("Ju");
+    public void givenLastName_WhenLessThanThreeChars_ShouldReturnFalse() {
+        boolean result = userRegistration.validateLastName("Ks");
         Assert.assertFalse(result);
     }
 }
