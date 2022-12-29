@@ -9,9 +9,16 @@ public class TestUserRegistrationTest {
         boolean result = userRegistration.validateLastName("Kshirsagar");
         Assert.assertTrue(result);
     }
+
     @Test
     public void givenLastName_WhenLessThanThreeChars_ShouldReturnFalse() {
         boolean result = userRegistration.validateLastName("Ks");
         Assert.assertFalse(result);
+    }
+
+    @Test
+    public void givenEmail_WhenValid_ShouldReturnTrue() {
+        boolean result = userRegistration.validateEmailAddress("abc-100@yahoo.com");
+        Assert.assertTrue(result);
     }
 }
