@@ -43,7 +43,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TestUserRegistrationTest">
     <configuration name="TestUserRegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JunitDemo" />
       <option name="PACKAGE_NAME" value="" />
@@ -53,9 +53,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestUserRegistrationTest.givenPassword_IsValid_ShouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JunitDemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestUserRegistrationTest" />
+      <option name="METHOD_NAME" value="givenPassword_IsValid_ShouldReturnTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestUserRegistrationTest" />
+        <item itemvalue="JUnit.TestUserRegistrationTest.givenPassword_IsValid_ShouldReturnTrue" />
       </list>
     </recent_temporary>
   </component>
