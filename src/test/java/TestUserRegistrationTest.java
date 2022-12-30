@@ -28,10 +28,15 @@ public class TestUserRegistrationTest {
 //        Assert.assertFalse(result);
         Assert.assertTrue(result);
     }
-
     @Test
-    public void givenPassword_IsValid_ShouldReturnTrue() {
-        boolean result = userRegistration.validatePassword("Jui210547");
+    public void givenPassword_whenValid_showReturnTrue() {
+        boolean result = userRegistration.validatePassword("Juik3241");
         Assert.assertTrue(result);
     }
+    @Test
+    public void givenPassword_atLeast_oneUpperCase() {
+        boolean result = userRegistration.validatePasswordAtLeastOneUpperCase("Jui32134");
+        Assert.assertTrue(result);
+    }
+
 }
