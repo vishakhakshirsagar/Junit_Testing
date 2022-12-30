@@ -42,5 +42,8 @@ public class TestUserRegistrationTest {
     public void givenPassword_atLeast_oneNumericNumber() {
         boolean result = userRegistration.validatePasswordAtLeastOneNumericNumber("Jui21@05");
     }
-
+    @Test
+    public void givenPassword_atLeast_one_special_character() {
+        boolean result = userRegistration.validatePasswordAtLeastOneSpecialCharacter("Jui213@05");
+    }
 }
