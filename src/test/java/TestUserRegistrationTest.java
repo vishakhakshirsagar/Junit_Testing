@@ -7,17 +7,18 @@ import java.util.Arrays;
 import java.util.Collection;
 
 @RunWith(Parameterized.class)
-public class ValidateEmailIdTest {
+class ValidateEmailAddressTest {
 
     private final boolean expectedResult;
     private final String emailId;
 
-    public ValidateEmailIdTest(String emailId, boolean expectedResult) {
+    public ValidateEmailAddressTest(String emailId, boolean expectedResult) {
         this.expectedResult = expectedResult;
         this.emailId = emailId;
     }
 
-    UserRegistration userRegistration = new UserRegistration();
+    private String message;
+    UserRegistrationException userRegistration = new UserRegistrationException(message);
 
     @Parameterized.Parameters
     public static Collection emailIds_With_ExpectedResult() {
@@ -33,6 +34,6 @@ public class ValidateEmailIdTest {
 
     @Test
     public void givenEmailId_WhenProper_ShouldReturnExpectedResult() {
-        Assert.assertEquals(this.expectedResult, userRegistration.validateEmailAddress(emailId));
+        Assert.assertEquals(this.expectedResult, userRegistration.ValidateEmailAddress(emailId));
     }
 }
