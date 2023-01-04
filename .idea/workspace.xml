@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c717eb4-45c5-452c-be35-3ad43b7f3e38" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UserRegistration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestUserRegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestUserRegistrationTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="0c717eb4-45c5-452c-be35-3ad43b7f3e38" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +40,14 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.ValidateEmailAddressTest">
+  <component name="RunManager" selected="Application.UserRegistrationMain">
+    <configuration name="UserRegistrationMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UserRegistrationMain" />
+      <module name="JunitDemo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestUserRegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JunitDemo" />
       <option name="PACKAGE_NAME" value="" />
@@ -94,6 +97,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.UserRegistrationMain" />
       <item itemvalue="JUnit.TestUserRegistrationTest.givenEmail_WhenValid_ShouldReturnTrue" />
       <item itemvalue="JUnit.ValidateEmailAddressTest" />
       <item itemvalue="JUnit.TestUserRegistrationTest.givenPassword_whenValid_showReturnTrue" />
@@ -102,6 +106,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UserRegistrationMain" />
         <item itemvalue="JUnit.ValidateEmailAddressTest" />
         <item itemvalue="JUnit.TestUserRegistrationTest.givenPassword_whenValid_showReturnTrue" />
         <item itemvalue="JUnit.TestUserRegistrationTest" />
